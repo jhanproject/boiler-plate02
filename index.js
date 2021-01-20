@@ -22,7 +22,7 @@ mongoose.connect(config.mongoURI, {
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World! 안녕하세요! 새해복 많이 받으세요!! 노드몬이 작동하네요?')
+  res.send('Hello World! 안녕하세요! 새해복 많이 받으세요!! 노드몬이 작동하네?')
 })
 
 app.post('/register', (req, res) => {
